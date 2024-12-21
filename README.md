@@ -3,7 +3,7 @@
 Mancala is traditionally a two-player turn-based strategy board game, played with small stones. 
 Each player owns the 6 small holes on their side (bottom or top), and there are 4 stones in each of the 6 pits at the start of the game. Additionally, each player has a store, in which the stones will count toward score.
 ![image](https://github.com/user-attachments/assets/80ccef14-7089-4066-96ce-336e05847607)
-Please Refer to [url](https://www.scholastic.com/content/dam/teachers/blogs/alycia-zimmerman/migrated-files/mancala_rules.pdf) to Mancala game rules. 
+Please Refer to [this document](https://www.scholastic.com/content/dam/teachers/blogs/alycia-zimmerman/migrated-files/mancala_rules.pdf) for detailed Mancala game rules. 
 
 This project creates a *symbolic AI program* that plays Mancala game through *staged Depth First Search* through *minimax* and contains algorithms to calculate best choice for each turn, and give result within 4 second time frame. It also utilizes *Alpha-beta prunning* for additional proficiency. 
 
