@@ -5,7 +5,7 @@ Each player owns the 6 small holes on their side (bottom or top), and there are 
 ![image](https://github.com/user-attachments/assets/80ccef14-7089-4066-96ce-336e05847607)
 Please Refer to [this document](https://www.scholastic.com/content/dam/teachers/blogs/alycia-zimmerman/migrated-files/mancala_rules.pdf) for detailed Mancala game rules. 
 
-This project creates a *symbolic AI program* that plays Mancala game through *staged Depth First Search* through *minimax* and contains algorithms to calculate best choice for each turn, and give result within 4 second time frame. It also utilizes *Alpha-beta prunning* for additional proficiency. 
+This project creates a *symbolic AI program* that plays Mancala game with *staged Depth First Searches* through *minimax* and contains algorithms to calculate best choice for each turn, and give result within 4 second time frame. It also utilizes *Alpha-beta prunning* for additional proficiency. 
 
 **Table of Content**
 - KalaMatch: Run this file to play. (can change the players in this file)
@@ -21,6 +21,7 @@ This project is assigned as class project, some basic codes of KalahMatch.cs, bo
 
 **Sample Run:**
 This sample run is my player called jxcplayer2 playing against Bonzo Player. Since the player going first will have an advantage, the game is played two times such that each player will get a chance to go first. Overall match result is a sum of the player's score over two games.
+
 Game 1 first a few turns: 
 ![image](https://github.com/user-attachments/assets/768e4f83-b8e8-42c1-a8ae-63baeae7900a)
 
