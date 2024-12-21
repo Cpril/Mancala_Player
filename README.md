@@ -1,17 +1,24 @@
 # Mancala Player
+
 Mancala is traditionally a two-player turn-based strategy board game, played with small stones. 
 Each player owns the 6 small holes on their side (bottom or top), and there are 4 stones in each of the 6 pits at the start of the game. Additionally, each player has a store, in which the stones will count toward score.
 ![image](https://github.com/user-attachments/assets/80ccef14-7089-4066-96ce-336e05847607)
-Please Refer to [this document]([url](https://www.scholastic.com/content/dam/teachers/blogs/alycia-zimmerman/migrated-files/mancala_rules.pdf)) to Mancala game rules. 
+Please Refer to [url](https://www.scholastic.com/content/dam/teachers/blogs/alycia-zimmerman/migrated-files/mancala_rules.pdf) to Mancala game rules. 
 
 This project creates a *symbolic AI program* that plays Mancala game through *staged Depth First Search* through *minimax* and contains algorithms to calculate best choice for each turn, and give result within 4 second time frame. It also utilizes *Alpha-beta prunning* for additional proficiency. 
+
 **Table of Content**
 - KalaMatch: Run this file to play. (can change the players in this file)
 - board.cs: the implementation of the board and rules.
 - Player.cs: outlines basic functions and structures of the program.
-- HumanPlayer: implementation for human players, if runned with KalaMatch, it allows user imput to play the mancala game.
+- HumanPlayer.cs: implementation for human players, if runned with KalaMatch, it allows user imput to play the mancala game.
 - BonzoPlayer.cs: A player whose evaluate function depends on whether it can take double turns. In other word, a game player with very basic algorithm
-- CostumePlayer: 
+- DefaultPlayer.cs: Basic Player I constructed whose evaluate algorithm only look at score differences. It is often used in testing my CostumePlayers when implementing those.
+- CostumePlayer.cs, CostumePlayer1.cs, CostumePlayer2.cs: Players I constructed. Out of those CostumePlayer2 has the best preformance.
+
+**Acknowledgement**
+This project is assigned as class project, some basic codes of KalahMatch.cs, board.cs, player.cs, HumanPlayer.cs, and BonzoPlayer.cs are given
+
 **Sample Run:**
 This sample run is my player called jxcplayer2 playing against Bonzo Player. Since the player going first will have an advantage, the game is played two times such that each player will get a chance to go first. Overall match result is a sum of the player's score over two games.
 Game 1 first a few turns: 
@@ -28,3 +35,5 @@ Game 2 end turns and results:
 
 Overall Match Results: 
 ![image](https://github.com/user-attachments/assets/9ad23745-ae21-43e0-9c7b-c50c3c70a5a2)
+
+
